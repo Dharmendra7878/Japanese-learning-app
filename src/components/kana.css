@@ -1,0 +1,143 @@
+/* General Page Layout */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+button {
+  background: #4a90e2;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #357ab8;
+}
+
+button.delete-btn {
+  background: #e74c3c;
+}
+
+button.delete-btn:hover {
+  background: #c0392b;
+}
+
+/* Quiz Layout */
+.quiz-area {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+/* Left - Feedback */
+.left {
+  text-align: left;
+}
+
+.left h2.correct {
+  color: green;
+}
+
+.left h2.wrong {
+  color: red;
+}
+
+/* Center - Quiz Box */
+.center {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kana-box {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.center input {
+  width: 80%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.center button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Right - Stats */
+.right {
+  text-align: left;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right h3 {
+  margin-bottom: 10px;
+}
+
+/* Add / Manage Page */
+.add-page {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.add-page h2 {
+  margin-bottom: 12px;
+}
+
+.add-page input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.kanji-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.kanji-list li {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

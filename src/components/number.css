@@ -1,0 +1,117 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f9fcff, #e0f2fe);
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  color: #0d47a1;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Quiz Area Layout */
+.quiz-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* Left Feedback Box */
+.left, .center, .right {
+  flex: 1;
+  min-width: 280px;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Feedback Text */
+.left h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #37474f;
+}
+
+/* Last correct answer */
+.correct-display {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #e8f5e9;
+  border-left: 6px solid #4caf50;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+/* Quiz Main */
+.kana-box {
+  font-size: 3.5rem;
+  color: #1976d2;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Input Field */
+input[type="text"] {
+  width: 70%;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 2px solid #bbdefb;
+  outline: none;
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+
+input[type="text"]:focus {
+  border-color: #42a5f5;
+  box-shadow: 0 0 8px rgba(66, 165, 245, 0.5);
+}
+
+/* Button */
+button {
+  background: linear-gradient(to right, #42a5f5, #1e88e5);
+  color: white;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #1e88e5, #1565c0);
+}
+
+/* Stats Panel */
+.right h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1565c0;
+}
+
+.right p {
+  font-size: 1.1rem;
+  margin: 0.4rem 0;
+  color: #333;
+}
