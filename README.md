@@ -25,6 +25,7 @@ This project was developed as part of my Final Year BCA (Hons) degree, focusing 
 ⚡ Fast Performance – Powered by Vite for optimized build and load speed.
 
 🛠️ Tech Stack
+
 Category	Technology
 Frontend	React.js (Vite)
 Styling	 CSS
@@ -32,6 +33,7 @@ Routing	React Router DOM
 State Management	React Hooks / Context API
 Storage	LocalStorage
 Deployment	GitHub Pages
+
 🧩 Project Structure
 Japanese-learning-app/
 │
@@ -46,6 +48,7 @@ Japanese-learning-app/
 ├── vite.config.js        # Vite configuration file
 ├── package.json          # Project dependencies and scripts
 └── README.md             # Project documentation
+
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
